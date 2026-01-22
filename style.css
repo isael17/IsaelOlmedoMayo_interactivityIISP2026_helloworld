@@ -105,5 +105,5 @@ p:hover, h1:hover, a:hover {
   background-color: rebeccapurple;
 }
 h1:hover, a:hover {
-    color: blue;
+    color: red;
 }
