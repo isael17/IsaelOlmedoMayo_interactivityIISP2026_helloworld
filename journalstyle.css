@@ -1,0 +1,152 @@
+.cropContainer{
+     position:relative;
+     overflow: hidden;
+       font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(195, 211, 198);
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+footer:hover{
+    color: red;
+    font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0%);
+    margin: 0;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.display-exp{
+  display:flex;
+  gap: 20px;
+    font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.display-exp div{
+    flex: 1;
+    padding: 20px;
+    color: rgb(241, 188, 11);
+    margin: 20px;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.flex-container{
+    display: flex;
+    width: 100vw;
+    background-color: blueviolet;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.hoverElement:hover{/*add class="hoverElement" to whatever tag you want to hover */
+  color:green;
+}
+p:hover, h1:hover, a:hover {
+  background-color: rebeccapurple;
+    font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h1:hover, a:hover {
+    color: red;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h2:hover{
+    color: yellow;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h3:hover{
+    color: aqua;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h4:hover{
+    color: red;
+    font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+i{
+    animation-name: changeBGColor2;
+    animation-duration: 9s;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+@keyframes changeBGColor2{
+    from {background-color:rgb(128, 128, 128);}
+    to {background-color: red;}
+}
+@keyframes changeBGColor{
+    from {background-color:rgb(0, 255, 191);}
+    to {background-color: red;}
+}
+p{
+    animation-name: changeColor;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+li{
+    animation-name: changeBGColor;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.collage{
+     position: absolute;
+}
+li{
+    color: blueviolet;
+      font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+@keyframes  changeColor{
+    from {color: rgb(222, 135, 196);}
+    to {color: blue;}
+}
