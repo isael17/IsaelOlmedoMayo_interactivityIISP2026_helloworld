@@ -14,23 +14,33 @@
    this is a button</button>
    <br>
    <br>
-<button onclick="alert('Sup My Fellow Citizens');" 
+<button onmouseup="alert('Sup My Fellow Citizens');" 
     id="colorChangeButton" style="background-color: blueviolet; color: aquamarine;">
     Click For A Free Chance To Get Tickets For A Cruise
 </button>
 <br>
 <br>
-<button onclick="confirm('Are You Ready For This Year?');"
+<button onmouseover="confirm('Are You Ready For This Year?');"
     id="colorChangeButton" style="background-color: palevioletred; color: blue;">
     Right The World Is Good
 </button>
-   <br>
-   <br>
+<br>
+<br>
+<button ondblclick="prompt('Who Is The Better Potora Fusion?','Kefla');document.getElementById
+('Potora Fusion?').innerHTML='Kefla';"
+    id="colorChangeButton" style="background-color: purple; color: aquamarine;">
+    Better Potora Fusion
+</button>
+Potora Fusion? is <span id="Potora Fusion?" style="color: blueviolet;"></span>
+<br>
+<br>
 <button 
    onclick=
    "this.classList.add('newClass')"
    id="colorChangeButton" style="background-color:blue;color:rgb(128, 5, 91);">
    this is a button</button>
+<br>
+<br>
 <style>
     .newClass{
         opacity:0;
@@ -41,4 +51,48 @@
         background-color: aqua;
     }
    </style>
+Who is the Best Hashira? The Best Hashira Is
+<select id="todo" onchange="document.getElementById('Hashira').innerHTML=`${document.getElementById('todo').value}`" id="changeFontColor" style="color: blueviolet;">
+  <option value="Does the Love Breathing Technique With Sword That is Flexible">Mitsuri</option> 
+  <option value="Uses The Fire Breathing of A Tiger and Died Knowing He protected People">Rengoku</option> 
+  <option value="Wished He Died, and Felt Lonley After Losing Friends in Trial, and Uses Water Breathin Like The Ocean">Giyu</option>  
+</select>
+<br>
+<br>
+<p style="border: 0cqb; color: aqua; font-size: larger; cursor: copy; box-shadow: 2cm; border: 2cm; background-color: black;">Find Amazing Factos About Humanity</p>
+
+<input type="search" id="myInput" onsearch="myFunction()" style="writing-mode: vertical-lr; color: rgb(128, 5, 91); font-size: smaller; background-color: aqua;">
+
+<p id="Sup"></p>
+
+<script>
+function myFunction() {
+   let x = document.getElementById("myInput");
+   document.getElementById("Sup").innerHTML = "You are searching for: " + x.value;
+}
+</script>
+<br>
+<br>
+<input type="text" id="myText" value="Mitsuri Is The Best">
+<br>
+<p>Who Is Ready To Rumble></p>
+<button type="button" ondblclick="getFocus()" id="colorChangeButton" style="background-color: blue; color: beige; cursor: crosshair;">sup</button>
+<button type="button" ondblclick="loseFocus()" id="colorChangeButton" style="border: 0cm; cursor: grab; color: aqua; background-color: black;">boo</button>
+<script>
+function getFocus() {
+  document.getElementById("myText").focus();
+}
+
+function loseFocus() {
+  document.getElementById("myText").blur();
+}
+</script>
+<br>
+<br>
+<button ondblclick=
+    "if(this.style.color=='blueviolet')//this is two equal sign = =
+     {this.style.color='blue'}
+     else
+     {this.style.color='blueviolet'}" style="cursor: grab; background-color: teal; font-weight: 700;writing-mode: vertical-lr; font-size: larger;">
+    Insouke Is The best</button>
 </body>
